@@ -1,0 +1,78 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:black;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton, .clickBlackHoleButton {
+  padding:5px 12px;
+  margin:5px;
+  float:right;
+  background-color: #585858;
+  border-radius: 10px;
+  border: 50px;
+  cursor: pointer;
+}
+
+.videofile {
+  display: none;
+}
+
+.topbar{
+  position: absolute;
+  height:40px;
+  /*background-color: #585858;*/
+  z-index: 100;
+}
+
+.title{
+  background-color: #777;
+}
+
+.dancer{
+  /*background-image: url("https://pbs.twimg.com/profile_images/461229326076502016/MfQFIaXD.jpeg");*/
+  /*border:10px solid red;
+  border-radius:10px;
+  position:absolute;*/
+}
+
+.star {
+  /*background: url(planetimgs/Jupiter.png) no-repeat;*/
+  border:100px;
+  border-radius:100px;
+  position:absolute;
+  z-index: 0;
+}
+
+.sun {
+  content: url("https://s-media-cache-ak0.pinimg.com/originals/e3/8b/09/e38b0939ad8c8891f85750c5c8ef5f80.gif");
+  /*height: 30%;
+  width: 30%;*/
+  position: relative;
+  top: 30%;
+  left: 30%;
+  height:200px;
+  width:200px;
+  z-index: 1;
+}
+
+.planet {
+  position: absolute;
+  z-index: 2;
+}
+
+.astronaut {
+  position: relative;
+  z-index: 10;
+}
+
+.asteroid {
+  position: relative;
+  z-index: 2;
+}
+

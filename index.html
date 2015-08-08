@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Object Dance Party</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="lib/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="src/dancer.js"></script>
+    <!-- <script src="src/effects.js"></script> -->
+    <script type="text/javascript" src="src/planetDancer.js"></script>
+    <script type="text/javascript" src="src/starDancer.js"></script>
+    <script type="text/javascript" src="src/astronautDancer.js"></script>
+    <script type="text/javascript" src="src/asteroidDancer.js"></script>
+  </head>
+  <body>
+    <iframe class="videofile" width="560" height="315" src="https://www.youtube.com/embed/LXrEpRTP-ek?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <div class="topbar">
+      <!-- <span class="title">object dance party</span> -->
+      <a class="addDancerButton" data-dancer-maker-function-name="PlanetDancer">Create a Planet </a>  
+      <a class="addDancerButton" data-dancer-maker-function-name="StarDancer">Create a Star </a>  
+      <a class="addDancerButton" data-dancer-maker-function-name="AstronautDancer">Send an Astronaut</a>
+      <a class="addDancerButton" data-dancer-maker-function-name="AsteroidDancer">Fire an Asteroid</a>  
+      <a class="clickBlackHoleButton">Black Hole</a>
+    </div>
+    <div class="sun"></div> 
+    <script src="src/init.js"></script>
+
+  </body>
+</html>
